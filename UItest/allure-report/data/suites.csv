@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Sep 02 19:06:28 CST 2020","Wed Sep 02 19:06:45 CST 2020","17228","TestCases.LoginMode","test_login","TestLogin","","","测试用例名称：坐席登录工作台",""
-"failed","Wed Sep 02 19:06:58 CST 2020","Wed Sep 02 19:07:18 CST 2020","20401","TestCases.OrderMode","test_order","Testorder","","","测试用例名称：坐席新建工单",""
