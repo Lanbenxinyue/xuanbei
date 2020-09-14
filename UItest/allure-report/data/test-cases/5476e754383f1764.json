@@ -1,0 +1,167 @@
+{
+  "uid" : "5476e754383f1764",
+  "name" : "test_order",
+  "fullName" : "TestCases.OrderMode.test_order.Testorder#test_order",
+  "historyId" : "b5690c29e4f6cc2aac0c8d827887448f",
+  "time" : {
+    "start" : 1598859342216,
+    "stop" : 1598859361842,
+    "duration" : 19626
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>> = <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001F9D32C3940> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>)",
+  "statusTrace" : "self = <TestCases.OrderMode.test_order.Testorder object at 0x000001F9D31EBE80>\ninit = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>, <PageObjects.order_page.OrderPage object at 0x000001F9D32DA048>)\n\n    def test_order(self,init):\n        init[1].order()\n>       assert (HomePage(init[0]).New_workorder())\nE       assert False\nE        +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>>()\nE        +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>> = <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>.New_workorder\nE        +      where <PageObjects.home_page.HomePage object at 0x000001F9D32C3940> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>)\n\nTestCases\\OrderMode\\test_order.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_login",
+    "time" : {
+      "start" : 1598859329199,
+      "stop" : 1598859342216,
+      "duration" : 13017
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1598859318860,
+      "stop" : 1598859329198,
+      "duration" : 10338
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1598859342216,
+      "stop" : 1598859342216,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>> = <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001F9D32C3940> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>)",
+    "statusTrace" : "self = <TestCases.OrderMode.test_order.Testorder object at 0x000001F9D31EBE80>\ninit = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>, <PageObjects.order_page.OrderPage object at 0x000001F9D32DA048>)\n\n    def test_order(self,init):\n        init[1].order()\n>       assert (HomePage(init[0]).New_workorder())\nE       assert False\nE        +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>>()\nE        +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>> = <PageObjects.home_page.HomePage object at 0x000001F9D32C3940>.New_workorder\nE        +      where <PageObjects.home_page.HomePage object at 0x000001F9D32C3940> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0a64da093bca71d03a8816eafd7086d4\")>)\n\nTestCases\\OrderMode\\test_order.py:18: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d537d75259c0b44",
+      "name" : "log",
+      "source" : "6d537d75259c0b44.txt",
+      "type" : "text/plain",
+      "size" : 1199
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "init_login::0",
+    "time" : {
+      "start" : 1598859361997,
+      "stop" : 1598859364431,
+      "duration" : 2434
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1598859364434,
+      "stop" : 1598859372509,
+      "duration" : 8075
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1598859361977,
+      "stop" : 1598859361977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases.OrderMode"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testorder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K88UKG"
+  }, {
+    "name" : "thread",
+    "value" : "15704-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.OrderMode.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init')" ]
+  },
+  "source" : "5476e754383f1764.json",
+  "parameterValues" : [ ]
+}

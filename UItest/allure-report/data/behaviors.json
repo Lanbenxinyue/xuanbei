@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "测试用例小模块-登录案例",
+      "children" : [ {
+        "name" : "测试用例名称：坐席登录工作台",
+        "uid" : "7baff7c9c7fb364",
+        "parentUid" : "40c58aedba2163d8eb1b4037cabe64f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599044788080,
+          "stop" : 1599044805308,
+          "duration" : 17228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40c58aedba2163d8eb1b4037cabe64f8"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "工单中心模块",
+    "children" : [ {
+      "name" : "测试用例小模块-工单案例",
+      "children" : [ {
+        "name" : "测试用例名称：坐席新建工单",
+        "uid" : "cc379e9a7ed32d50",
+        "parentUid" : "f21e37f72543ef2b79f1b1c74bef1ec9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599044818508,
+          "stop" : 1599044838909,
+          "duration" : 20401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f21e37f72543ef2b79f1b1c74bef1ec9"
+    } ],
+    "uid" : "04ca40e85e32050147dcaffacdf1bccf"
+  } ]
+}

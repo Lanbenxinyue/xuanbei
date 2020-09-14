@@ -1,0 +1,409 @@
+{
+  "e21161b573f35a2ae3c8a3670c23bfe8" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "7baff7c9c7fb364",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/35/allure/#testresult/7baff7c9c7fb364",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599044788080,
+        "stop" : 1599044805308,
+        "duration" : 17228
+      }
+    }, {
+      "uid" : "84a7569adf829111",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/34/allure/#testresult/84a7569adf829111",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>> = <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f6151cd189b59728dfaeadde199f61da\")>)",
+      "time" : {
+        "start" : 1599044444016,
+        "stop" : 1599044455416,
+        "duration" : 11400
+      }
+    }, {
+      "uid" : "aed9404c86f3a51f",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/33/allure/#testresult/aed9404c86f3a51f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599035586899,
+        "stop" : 1599035596990,
+        "duration" : 10091
+      }
+    }, {
+      "uid" : "3d1e8a56d938a1b2",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/32/allure/#testresult/3d1e8a56d938a1b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599035080844,
+        "stop" : 1599035094047,
+        "duration" : 13203
+      }
+    }, {
+      "uid" : "d31d8cae002a736a",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/31/allure/#testresult/d31d8cae002a736a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599034858028,
+        "stop" : 1599034867746,
+        "duration" : 9718
+      }
+    }, {
+      "uid" : "fb48eeda6a865ef0",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/30/allure/#testresult/fb48eeda6a865ef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599033835083,
+        "stop" : 1599033843774,
+        "duration" : 8691
+      }
+    }, {
+      "uid" : "2d9e4bf540de021",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/29/allure/#testresult/2d9e4bf540de021",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>> = <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>)",
+      "time" : {
+        "start" : 1599033668355,
+        "stop" : 1599033679659,
+        "duration" : 11304
+      }
+    }, {
+      "uid" : "52e93ce256fd4a7f",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/28/allure/#testresult/52e93ce256fd4a7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>> = <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"a666a3c43ef86caa70ff277417f2f305\")>)",
+      "time" : {
+        "start" : 1599033300274,
+        "stop" : 1599033315476,
+        "duration" : 15202
+      }
+    }, {
+      "uid" : "809edca7c59b643",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/27/allure/#testresult/809edca7c59b643",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>> = <PageObjects.home_page.HomePage object at 0x0000023E2F968208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000023E2F968208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"01459654fda6326431938c3678b9e4c2\")>)",
+      "time" : {
+        "start" : 1599032733122,
+        "stop" : 1599032746832,
+        "duration" : 13710
+      }
+    }, {
+      "uid" : "7ee2e2d145f943aa",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/26/allure/#testresult/7ee2e2d145f943aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599031135559,
+        "stop" : 1599031145524,
+        "duration" : 9965
+      }
+    }, {
+      "uid" : "a401affb56432c62",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/25/allure/#testresult/a401affb56432c62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599030966557,
+        "stop" : 1599030980545,
+        "duration" : 13988
+      }
+    }, {
+      "uid" : "63a0fc3f8e742b06",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/24/allure/#testresult/63a0fc3f8e742b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029467156,
+        "stop" : 1599029478936,
+        "duration" : 11780
+      }
+    }, {
+      "uid" : "ad7eede4231e2029",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/23/allure/#testresult/ad7eede4231e2029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029145962,
+        "stop" : 1599029157160,
+        "duration" : 11198
+      }
+    }, {
+      "uid" : "c5384f1eac61f0da",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/22/allure/#testresult/c5384f1eac61f0da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599028857102,
+        "stop" : 1599028868788,
+        "duration" : 11686
+      }
+    }, {
+      "uid" : "1411b39ab3c3390d",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/21/allure/#testresult/1411b39ab3c3390d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599028407604,
+        "stop" : 1599028419407,
+        "duration" : 11803
+      }
+    }, {
+      "uid" : "feafcaec8cebcbab",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/20/allure/#testresult/feafcaec8cebcbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599027295715,
+        "stop" : 1599027307212,
+        "duration" : 11497
+      }
+    }, {
+      "uid" : "176b79bc74a8106f",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/19/allure/#testresult/176b79bc74a8106f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>> = <PageObjects.home_page.HomePage object at 0x000001945C5FC358>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001945C5FC358> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"6da6845cd341a4af5daca99ebbab2c6c\")>)",
+      "time" : {
+        "start" : 1599027093179,
+        "stop" : 1599027105589,
+        "duration" : 12410
+      }
+    }, {
+      "uid" : "da8917c45112dbc9",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/18/allure/#testresult/da8917c45112dbc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599026843397,
+        "stop" : 1599026856089,
+        "duration" : 12692
+      }
+    }, {
+      "uid" : "9cb2b225635fb8a6",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/17/allure/#testresult/9cb2b225635fb8a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599018703572,
+        "stop" : 1599018716678,
+        "duration" : 13106
+      }
+    }, {
+      "uid" : "a6f50b20a24bad42",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/16/allure/#testresult/a6f50b20a24bad42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599018385222,
+        "stop" : 1599018396289,
+        "duration" : 11067
+      }
+    } ]
+  },
+  "b5690c29e4f6cc2aac0c8d827887448f" : {
+    "statistic" : {
+      "failed" : 23,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "cc379e9a7ed32d50",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/35/allure/#testresult/cc379e9a7ed32d50",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001CA81C5C128>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001CA81C5C128>> = <PageObjects.home_page.HomePage object at 0x000001CA81C5C128>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001CA81C5C128> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"2878436e3cfdd434176d4c314141d5c2\")>)",
+      "time" : {
+        "start" : 1599044818508,
+        "stop" : 1599044838909,
+        "duration" : 20401
+      }
+    }, {
+      "uid" : "b317a343eaf69ef9",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/34/allure/#testresult/b317a343eaf69ef9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000002A7E0884668>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000002A7E0884668>> = <PageObjects.home_page.HomePage object at 0x000002A7E0884668>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000002A7E0884668> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"bed739564e6be2dc5add70f912e43455\")>)",
+      "time" : {
+        "start" : 1599044469737,
+        "stop" : 1599044488821,
+        "duration" : 19084
+      }
+    }, {
+      "uid" : "5e7f9c702bb085c0",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/33/allure/#testresult/5e7f9c702bb085c0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000002CB67415A90>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000002CB67415A90>> = <PageObjects.home_page.HomePage object at 0x000002CB67415A90>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000002CB67415A90> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4a48bb78cc1006565c95bcbb7567722a\")>)",
+      "time" : {
+        "start" : 1599035615377,
+        "stop" : 1599035637347,
+        "duration" : 21970
+      }
+    }, {
+      "uid" : "606166e9dc5093b1",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/32/allure/#testresult/606166e9dc5093b1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000025938515C50>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000025938515C50>> = <PageObjects.home_page.HomePage object at 0x0000025938515C50>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000025938515C50> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"0dbad4d5384583fbf39570c3c749216f\")>)",
+      "time" : {
+        "start" : 1599035112710,
+        "stop" : 1599035132108,
+        "duration" : 19398
+      }
+    }, {
+      "uid" : "3e088a351d53dd53",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/31/allure/#testresult/3e088a351d53dd53",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001FC7E217978>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001FC7E217978>> = <PageObjects.home_page.HomePage object at 0x000001FC7E217978>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001FC7E217978> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"c22dbd304f9488e1e973bbfcbc6b5dc6\")>)",
+      "time" : {
+        "start" : 1599034881586,
+        "stop" : 1599034902056,
+        "duration" : 20470
+      }
+    }, {
+      "uid" : "bb6461267031b385",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/30/allure/#testresult/bb6461267031b385",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000279B994B710>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000279B994B710>> = <PageObjects.home_page.HomePage object at 0x00000279B994B710>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x00000279B994B710> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"018db6f29f05c489b098b3ca0b990dc8\")>)",
+      "time" : {
+        "start" : 1599033870586,
+        "stop" : 1599033893696,
+        "duration" : 23110
+      }
+    }, {
+      "uid" : "8670cf19087ed7f9",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/29/allure/#testresult/8670cf19087ed7f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001CC7FBC5C18>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001CC7FBC5C18>> = <PageObjects.home_page.HomePage object at 0x000001CC7FBC5C18>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001CC7FBC5C18> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"9fef358d001c61cf99d89c2ee155b47c\")>)",
+      "time" : {
+        "start" : 1599033709405,
+        "stop" : 1599033732921,
+        "duration" : 23516
+      }
+    }, {
+      "uid" : "743eb63aa449a63d",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/28/allure/#testresult/743eb63aa449a63d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000019F2C21D6A0>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000019F2C21D6A0>> = <PageObjects.home_page.HomePage object at 0x0000019F2C21D6A0>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000019F2C21D6A0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"660ec82354f6052caefb8de9b0345d2f\")>)",
+      "time" : {
+        "start" : 1599033337367,
+        "stop" : 1599033360826,
+        "duration" : 23459
+      }
+    }, {
+      "uid" : "cd1a367b385cc6c8",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/27/allure/#testresult/cd1a367b385cc6c8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000023E2FA1C400>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000023E2FA1C400>> = <PageObjects.home_page.HomePage object at 0x0000023E2FA1C400>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000023E2FA1C400> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4a0760876c4aafc1d84ed83c147b1fb6\")>)",
+      "time" : {
+        "start" : 1599032774971,
+        "stop" : 1599032803607,
+        "duration" : 28636
+      }
+    }, {
+      "uid" : "31e871b9c2ebbba9",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/26/allure/#testresult/31e871b9c2ebbba9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001BC0F93BD68>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001BC0F93BD68>> = <PageObjects.home_page.HomePage object at 0x000001BC0F93BD68>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001BC0F93BD68> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"e449fa6978356ec297c484e4e34304ae\")>)",
+      "time" : {
+        "start" : 1599031183324,
+        "stop" : 1599031201276,
+        "duration" : 17952
+      }
+    }, {
+      "uid" : "4951a44baec2fd10",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/25/allure/#testresult/4951a44baec2fd10",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000226C4742780>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000226C4742780>> = <PageObjects.home_page.HomePage object at 0x00000226C4742780>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x00000226C4742780> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f0022a2e1003802910e182291348713c\")>)",
+      "time" : {
+        "start" : 1599030993079,
+        "stop" : 1599031014416,
+        "duration" : 21337
+      }
+    }, {
+      "uid" : "447adf009b2c4893",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/24/allure/#testresult/447adf009b2c4893",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000024A4D4849B0>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000024A4D4849B0>> = <PageObjects.home_page.HomePage object at 0x0000024A4D4849B0>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000024A4D4849B0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"80a936503697948008c199dafc0bb884\")>)",
+      "time" : {
+        "start" : 1599029496577,
+        "stop" : 1599029518710,
+        "duration" : 22133
+      }
+    }, {
+      "uid" : "c0b6a6aab5d156c8",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/23/allure/#testresult/c0b6a6aab5d156c8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000026E939944E0>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000026E939944E0>> = <PageObjects.home_page.HomePage object at 0x0000026E939944E0>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000026E939944E0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"abc940b4c92baac3dc82ae5ae711aef6\")>)",
+      "time" : {
+        "start" : 1599029172865,
+        "stop" : 1599029194809,
+        "duration" : 21944
+      }
+    }, {
+      "uid" : "c9f730613c05ea4e",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/22/allure/#testresult/c9f730613c05ea4e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000232C9CF3390>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x00000232C9CF3390>> = <PageObjects.home_page.HomePage object at 0x00000232C9CF3390>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x00000232C9CF3390> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"425411ea8695d5dcda5c314d9d59be4c\")>)",
+      "time" : {
+        "start" : 1599028882389,
+        "stop" : 1599028906827,
+        "duration" : 24438
+      }
+    }, {
+      "uid" : "2a430d3019d90b4b",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/21/allure/#testresult/2a430d3019d90b4b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D7FF0EDF28>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D7FF0EDF28>> = <PageObjects.home_page.HomePage object at 0x000001D7FF0EDF28>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001D7FF0EDF28> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"9e44881c7fb5fca320d226c5045170d0\")>)",
+      "time" : {
+        "start" : 1599028441207,
+        "stop" : 1599028465242,
+        "duration" : 24035
+      }
+    }, {
+      "uid" : "71d4f70baa65f9b5",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/20/allure/#testresult/71d4f70baa65f9b5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D2B6AB2F60>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D2B6AB2F60>> = <PageObjects.home_page.HomePage object at 0x000001D2B6AB2F60>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001D2B6AB2F60> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"a2b60794947e9c460c881d77db5972e7\")>)",
+      "time" : {
+        "start" : 1599027320318,
+        "stop" : 1599027343957,
+        "duration" : 23639
+      }
+    }, {
+      "uid" : "8f30f498a0aed44f",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/19/allure/#testresult/8f30f498a0aed44f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001945C685C88>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001945C685C88>> = <PageObjects.home_page.HomePage object at 0x000001945C685C88>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001945C685C88> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"4570fd3d31e4dcb47dcf83a4cd3b4eec\")>)",
+      "time" : {
+        "start" : 1599027127198,
+        "stop" : 1599027150284,
+        "duration" : 23086
+      }
+    }, {
+      "uid" : "2ccfd4b1028dd608",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/18/allure/#testresult/2ccfd4b1028dd608",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000020C76177C88>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x0000020C76177C88>> = <PageObjects.home_page.HomePage object at 0x0000020C76177C88>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x0000020C76177C88> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f0d25444c28e4d1e1724d011ad06cce1\")>)",
+      "time" : {
+        "start" : 1599026874666,
+        "stop" : 1599026897860,
+        "duration" : 23194
+      }
+    }, {
+      "uid" : "7f779565d36184d7",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/17/allure/#testresult/7f779565d36184d7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001E0559BB860>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001E0559BB860>> = <PageObjects.home_page.HomePage object at 0x000001E0559BB860>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001E0559BB860> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f113561d97ef7ca0652374132acefb95\")>)",
+      "time" : {
+        "start" : 1599018746235,
+        "stop" : 1599018769937,
+        "duration" : 23702
+      }
+    }, {
+      "uid" : "9751e9a199743dfc",
+      "reportUrl" : "http://172.16.53.116:8080/job/Uitest/16/allure/#testresult/9751e9a199743dfc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D75AC8C2E8>>()\n +    where <bound method HomePage.New_workorder of <PageObjects.home_page.HomePage object at 0x000001D75AC8C2E8>> = <PageObjects.home_page.HomePage object at 0x000001D75AC8C2E8>.New_workorder\n +      where <PageObjects.home_page.HomePage object at 0x000001D75AC8C2E8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"65bf35259dda3d93c1d889272c740c5d\")>)",
+      "time" : {
+        "start" : 1599018428138,
+        "stop" : 1599018449821,
+        "duration" : 21683
+      }
+    } ]
+  }
+}
