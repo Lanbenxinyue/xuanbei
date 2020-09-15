@@ -1,0 +1,125 @@
+{
+  "uid" : "c365d5ad3dd5f4c",
+  "name" : "测试用例名称：坐席登录工作台",
+  "fullName" : "TestCases.LoginMode.test_login.TestLogin#test_login",
+  "historyId" : "e21161b573f35a2ae3c8a3670c23bfe8",
+  "time" : {
+    "start" : 1599033668355,
+    "stop" : 1599033679659,
+    "duration" : 11304
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>> = <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>)",
+  "statusTrace" : "self = <TestCases.LoginMode.test_login.TestLogin object at 0x000001CC7FAEC5C0>\ninit = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>, <PageObjects.login_page.LoginPage object at 0x000001CC7FB21DD8>)\n\n    @allure.title(\"测试用例名称：坐席登录工作台\")\n    def test_login(self,init):\n        init[1].login(GD.username,GD.password)\n>       assert (HomePage(init[0]).isexist_logout_ele())\nE       assert False\nE        +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>>()\nE        +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>> = <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>.isexist_logout_ele\nE        +      where <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>)\n\nTestCases\\LoginMode\\test_login.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1599033652261,
+      "stop" : 1599033668352,
+      "duration" : 16091
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1599033668353,
+      "stop" : 1599033668353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1599033679937,
+      "stop" : 1599033685182,
+      "duration" : 5245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1599033679928,
+      "stop" : 1599033679928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例小模块-登录案例"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases.LoginMode"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K88UKG"
+  }, {
+    "name" : "thread",
+    "value" : "6664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.LoginMode.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init')" ]
+  },
+  "source" : "c365d5ad3dd5f4c.json",
+  "parameterValues" : [ ]
+}

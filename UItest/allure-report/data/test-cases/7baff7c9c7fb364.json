@@ -1,0 +1,596 @@
+{
+  "uid" : "7baff7c9c7fb364",
+  "name" : "测试用例名称：坐席登录工作台",
+  "fullName" : "TestCases.LoginMode.test_login.TestLogin#test_login",
+  "historyId" : "e21161b573f35a2ae3c8a3670c23bfe8",
+  "time" : {
+    "start" : 1599044788080,
+    "stop" : 1599044805308,
+    "duration" : 17228
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1599044788077,
+      "stop" : 1599044788077,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1599044775954,
+      "stop" : 1599044788077,
+      "duration" : 12123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1599044805309,
+      "stop" : 1599044805309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1599044805312,
+      "stop" : 1599044807883,
+      "duration" : 2571
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例小模块-登录案例"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases.LoginMode"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K88UKG"
+  }, {
+    "name" : "thread",
+    "value" : "13288-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.LoginMode.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce532d0aa2d41e92",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>> = <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f6151cd189b59728dfaeadde199f61da\")>)",
+      "time" : {
+        "start" : 1599044444016,
+        "stop" : 1599044455416,
+        "duration" : 11400
+      }
+    }, {
+      "uid" : "3c535f795015e292",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599035586899,
+        "stop" : 1599035596990,
+        "duration" : 10091
+      }
+    }, {
+      "uid" : "f8d26069abfe8994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599035080844,
+        "stop" : 1599035094047,
+        "duration" : 13203
+      }
+    }, {
+      "uid" : "e01223a914e80f5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599034858028,
+        "stop" : 1599034867746,
+        "duration" : 9718
+      }
+    }, {
+      "uid" : "2329f1c93d998afc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599033835083,
+        "stop" : 1599033843774,
+        "duration" : 8691
+      }
+    }, {
+      "uid" : "c365d5ad3dd5f4c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>> = <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>)",
+      "time" : {
+        "start" : 1599033668355,
+        "stop" : 1599033679659,
+        "duration" : 11304
+      }
+    }, {
+      "uid" : "7cecb91b0036bdd1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>> = <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"a666a3c43ef86caa70ff277417f2f305\")>)",
+      "time" : {
+        "start" : 1599033300274,
+        "stop" : 1599033315476,
+        "duration" : 15202
+      }
+    }, {
+      "uid" : "a0e1645105153a57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>> = <PageObjects.home_page.HomePage object at 0x0000023E2F968208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000023E2F968208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"01459654fda6326431938c3678b9e4c2\")>)",
+      "time" : {
+        "start" : 1599032733122,
+        "stop" : 1599032746832,
+        "duration" : 13710
+      }
+    }, {
+      "uid" : "b9f041e1a009df18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599031135559,
+        "stop" : 1599031145524,
+        "duration" : 9965
+      }
+    }, {
+      "uid" : "c10aedcd2ff0b732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599030966557,
+        "stop" : 1599030980545,
+        "duration" : 13988
+      }
+    }, {
+      "uid" : "cd0236c1a0dd369f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029467156,
+        "stop" : 1599029478936,
+        "duration" : 11780
+      }
+    }, {
+      "uid" : "cb1c350085ad3d38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029145962,
+        "stop" : 1599029157160,
+        "duration" : 11198
+      }
+    }, {
+      "uid" : "76afe4a23ad03509",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599028857102,
+        "stop" : 1599028868788,
+        "duration" : 11686
+      }
+    }, {
+      "uid" : "1a8f405a1af6efb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599028407604,
+        "stop" : 1599028419407,
+        "duration" : 11803
+      }
+    }, {
+      "uid" : "81209080788da23c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599027295715,
+        "stop" : 1599027307212,
+        "duration" : 11497
+      }
+    }, {
+      "uid" : "2af09840eabac0d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>> = <PageObjects.home_page.HomePage object at 0x000001945C5FC358>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001945C5FC358> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"6da6845cd341a4af5daca99ebbab2c6c\")>)",
+      "time" : {
+        "start" : 1599027093179,
+        "stop" : 1599027105589,
+        "duration" : 12410
+      }
+    }, {
+      "uid" : "b7072ea38cba31fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599026843397,
+        "stop" : 1599026856089,
+        "duration" : 12692
+      }
+    }, {
+      "uid" : "fe9d509f13c2eb79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599018703572,
+        "stop" : 1599018716678,
+        "duration" : 13106
+      }
+    }, {
+      "uid" : "966a3e98f69a7482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599018385222,
+        "stop" : 1599018396289,
+        "duration" : 11067
+      }
+    }, {
+      "uid" : "d4ae6319dffcf57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>> = <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001BB468D84A8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"35b5e03eeaa7b2e10ccb2d944bbf502b\")>)",
+      "time" : {
+        "start" : 1599018035452,
+        "stop" : 1599018048916,
+        "duration" : 13464
+      }
+    }, {
+      "uid" : "e8fbecacfa1ef87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598943782308,
+        "stop" : 1598943790158,
+        "duration" : 7850
+      }
+    }, {
+      "uid" : "f4001093981d58c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598864624064,
+        "stop" : 1598864633974,
+        "duration" : 9910
+      }
+    }, {
+      "uid" : "6110ea3a13f5d07b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598861107544,
+        "stop" : 1598861115360,
+        "duration" : 7816
+      }
+    }, {
+      "uid" : "16be7db22fe920f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598860951408,
+        "stop" : 1598860963775,
+        "duration" : 12367
+      }
+    }, {
+      "uid" : "bfa9b99138d77f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598860677981,
+        "stop" : 1598860690328,
+        "duration" : 12347
+      }
+    }, {
+      "uid" : "1fe3779e36b253c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598859306796,
+        "stop" : 1598859316198,
+        "duration" : 9402
+      }
+    }, {
+      "uid" : "d8a991a1820518ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598853732635,
+        "stop" : 1598853739029,
+        "duration" : 6394
+      }
+    }, {
+      "uid" : "8af0434961718d5c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1598588346166,
+        "stop" : 1598588346166,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3229509deb8c7a86",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+      "time" : {
+        "start" : 1598584612395,
+        "stop" : 1598584612395,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2361d686b4e1d36e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598509740764,
+        "stop" : 1598509750767,
+        "duration" : 10003
+      }
+    }, {
+      "uid" : "e130409422b72780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598490951323,
+        "stop" : 1598490963245,
+        "duration" : 11922
+      }
+    }, {
+      "uid" : "d4c03fd6a954932f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x00000202891785F8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x00000202891785F8>> = <PageObjects.home_page.HomePage object at 0x00000202891785F8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x00000202891785F8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1b3aa4489c3597f32f618d33c0b349d8\")>)",
+      "time" : {
+        "start" : 1598445221718,
+        "stop" : 1598445232826,
+        "duration" : 11108
+      }
+    }, {
+      "uid" : "77bdf8b79bf28bd9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x00000288B9379F28>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x00000288B9379F28>> = <PageObjects.home_page.HomePage object at 0x00000288B9379F28>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x00000288B9379F28> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"cc4a19572d1bd81e85c284a1048ec25d\")>)",
+      "time" : {
+        "start" : 1598444879812,
+        "stop" : 1598444891074,
+        "duration" : 11262
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "84a7569adf829111",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/34/allure/#testresult/84a7569adf829111",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>> = <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000002A7DFF8E208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"f6151cd189b59728dfaeadde199f61da\")>)",
+        "time" : {
+          "start" : 1599044444016,
+          "stop" : 1599044455416,
+          "duration" : 11400
+        }
+      }, {
+        "uid" : "aed9404c86f3a51f",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/33/allure/#testresult/aed9404c86f3a51f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599035586899,
+          "stop" : 1599035596990,
+          "duration" : 10091
+        }
+      }, {
+        "uid" : "3d1e8a56d938a1b2",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/32/allure/#testresult/3d1e8a56d938a1b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599035080844,
+          "stop" : 1599035094047,
+          "duration" : 13203
+        }
+      }, {
+        "uid" : "d31d8cae002a736a",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/31/allure/#testresult/d31d8cae002a736a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599034858028,
+          "stop" : 1599034867746,
+          "duration" : 9718
+        }
+      }, {
+        "uid" : "fb48eeda6a865ef0",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/30/allure/#testresult/fb48eeda6a865ef0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599033835083,
+          "stop" : 1599033843774,
+          "duration" : 8691
+        }
+      }, {
+        "uid" : "2d9e4bf540de021",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/29/allure/#testresult/2d9e4bf540de021",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>> = <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001CC7FB21EF0> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"1bd52423b24981449d1ddcdb21c037f1\")>)",
+        "time" : {
+          "start" : 1599033668355,
+          "stop" : 1599033679659,
+          "duration" : 11304
+        }
+      }, {
+        "uid" : "52e93ce256fd4a7f",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/28/allure/#testresult/52e93ce256fd4a7f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>> = <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000019F2C176BA8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"a666a3c43ef86caa70ff277417f2f305\")>)",
+        "time" : {
+          "start" : 1599033300274,
+          "stop" : 1599033315476,
+          "duration" : 15202
+        }
+      }, {
+        "uid" : "809edca7c59b643",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/27/allure/#testresult/809edca7c59b643",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x0000023E2F968208>> = <PageObjects.home_page.HomePage object at 0x0000023E2F968208>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x0000023E2F968208> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"01459654fda6326431938c3678b9e4c2\")>)",
+        "time" : {
+          "start" : 1599032733122,
+          "stop" : 1599032746832,
+          "duration" : 13710
+        }
+      }, {
+        "uid" : "7ee2e2d145f943aa",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/26/allure/#testresult/7ee2e2d145f943aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599031135559,
+          "stop" : 1599031145524,
+          "duration" : 9965
+        }
+      }, {
+        "uid" : "a401affb56432c62",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/25/allure/#testresult/a401affb56432c62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599030966557,
+          "stop" : 1599030980545,
+          "duration" : 13988
+        }
+      }, {
+        "uid" : "63a0fc3f8e742b06",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/24/allure/#testresult/63a0fc3f8e742b06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599029467156,
+          "stop" : 1599029478936,
+          "duration" : 11780
+        }
+      }, {
+        "uid" : "ad7eede4231e2029",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/23/allure/#testresult/ad7eede4231e2029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599029145962,
+          "stop" : 1599029157160,
+          "duration" : 11198
+        }
+      }, {
+        "uid" : "c5384f1eac61f0da",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/22/allure/#testresult/c5384f1eac61f0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599028857102,
+          "stop" : 1599028868788,
+          "duration" : 11686
+        }
+      }, {
+        "uid" : "1411b39ab3c3390d",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/21/allure/#testresult/1411b39ab3c3390d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599028407604,
+          "stop" : 1599028419407,
+          "duration" : 11803
+        }
+      }, {
+        "uid" : "feafcaec8cebcbab",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/20/allure/#testresult/feafcaec8cebcbab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599027295715,
+          "stop" : 1599027307212,
+          "duration" : 11497
+        }
+      }, {
+        "uid" : "176b79bc74a8106f",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/19/allure/#testresult/176b79bc74a8106f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001945C5FC358>> = <PageObjects.home_page.HomePage object at 0x000001945C5FC358>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001945C5FC358> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"6da6845cd341a4af5daca99ebbab2c6c\")>)",
+        "time" : {
+          "start" : 1599027093179,
+          "stop" : 1599027105589,
+          "duration" : 12410
+        }
+      }, {
+        "uid" : "da8917c45112dbc9",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/18/allure/#testresult/da8917c45112dbc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599026843397,
+          "stop" : 1599026856089,
+          "duration" : 12692
+        }
+      }, {
+        "uid" : "9cb2b225635fb8a6",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/17/allure/#testresult/9cb2b225635fb8a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599018703572,
+          "stop" : 1599018716678,
+          "duration" : 13106
+        }
+      }, {
+        "uid" : "a6f50b20a24bad42",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/16/allure/#testresult/a6f50b20a24bad42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599018385222,
+          "stop" : 1599018396289,
+          "duration" : 11067
+        }
+      }, {
+        "uid" : "5ab66b0c11460e63",
+        "reportUrl" : "http://172.16.53.116:8080/job/Uitest/15/allure/#testresult/5ab66b0c11460e63",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False\n +  where False = <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>>()\n +    where <bound method HomePage.isexist_logout_ele of <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>> = <PageObjects.home_page.HomePage object at 0x000001BB468D84A8>.isexist_logout_ele\n +      where <PageObjects.home_page.HomePage object at 0x000001BB468D84A8> = HomePage(<selenium.webdriver.chrome.webdriver.WebDriver (session=\"35b5e03eeaa7b2e10ccb2d944bbf502b\")>)",
+        "time" : {
+          "start" : 1599018035452,
+          "stop" : 1599018048916,
+          "duration" : 13464
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('init')" ]
+  },
+  "source" : "7baff7c9c7fb364.json",
+  "parameterValues" : [ ]
+}

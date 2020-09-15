@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "LoginMode.test_login",
+      "children" : [ {
+        "name" : "测试用例名称：坐席登录工作台",
+        "uid" : "7baff7c9c7fb364",
+        "parentUid" : "5be148cb9f2c47ec4ad2dbcd13b92008",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599044788080,
+          "stop" : 1599044805308,
+          "duration" : 17228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "LoginMode.test_login"
+    }, {
+      "name" : "OrderMode.test_order",
+      "children" : [ {
+        "name" : "测试用例名称：坐席新建工单",
+        "uid" : "cc379e9a7ed32d50",
+        "parentUid" : "6f55a448ef249528ed7bc515f5ca84ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599044818508,
+          "stop" : 1599044838909,
+          "duration" : 20401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "OrderMode.test_order"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ]
+}
